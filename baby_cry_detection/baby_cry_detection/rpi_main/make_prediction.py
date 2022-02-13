@@ -36,7 +36,7 @@ def main():
     ####################################################################################################################
 
     # Read signal
-    file_name = 'table.m4a'       # only one file in the folder
+    file_name = 'cry.mp3'       # only one file in the folder
     file_reader = Reader(os.path.join(load_path_data, file_name))
     play_list = file_reader.read_audio_file()
 
